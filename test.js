@@ -19,6 +19,7 @@ var subscription =
 		function onNext(e) {
 			console.log(typeof e);
 			console.log(e.target.id);
+			console.log(e.clientX, e.clientY);
 			console.log('clicked');
 			//subscription.dispose();
 		},
