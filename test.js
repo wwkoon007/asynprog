@@ -20,7 +20,7 @@ var subscription =
 			console.log(typeof e);
 			console.log(e.target.id);
 			console.log(e.clientX, e.clientY);
-			console.log('clicked');
+			console.log('you already clicked');
 			//subscription.dispose();
 		},
 		function onError(error) {
